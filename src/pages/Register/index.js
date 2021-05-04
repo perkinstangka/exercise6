@@ -63,7 +63,7 @@ function Register() {
             className="form-control"
             id="email"
             value={email}
-            onChange={e => setEmail(e.target.value)}
+            onChange={e => setEmail(e.target.value)} 
           />
         </div>
         <div className="mb-3">
