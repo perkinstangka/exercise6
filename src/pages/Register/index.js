@@ -83,7 +83,7 @@ function Register() {
             type="submit"
             className="btn btn-primary"
             onClick={e => onSubmit(e)}
-            style={{ minWidth: "150px" }}
+            style={{ minWidth: "151px" }}
           >
             {isLoading && <Spinner />}
             {!isLoading && "Daftar"}
